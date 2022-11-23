@@ -1,0 +1,28 @@
+{
+  "subject": "acct:juanperi@juanperi.dev",
+  "aliases": [
+    "acct:juanperi@fosstodon.org",
+    "https://fosstodon.org/@juanperi",
+    "https://fosstodon.org/users/juanperi"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://fosstodon.org/@juanperi"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://fosstodon.org/users/juanperi"
+    },
+    {
+      "rel": "self",
+      "href": "https://juanperi.dev/"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://fosstodon.org/authorize_interaction?uri={uri}"
+    }
+  ]
+}
